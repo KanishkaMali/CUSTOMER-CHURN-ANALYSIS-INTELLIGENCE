@@ -496,42 +496,6 @@ customers should receive the highest retention priority.
 
 ---
 
-# 📁 Project Structure
-
-```text
-Customer-Behavior-Analysis-Using-SQL-Python-Power-BI/
-│
-├── data/
-│   └── customer_churn_data.csv
-│
-├── sql/
-│   ├── data_quality.sql
-│   ├── churn_analysis.sql
-│   └── business_kpis.sql
-│
-├── python/
-│   └── churn_analysis.ipynb
-│
-├── powerbi/
-│   └── customer_churn_dashboard.pbix
-│
-├── screenshots/
-│   ├── dashboard_1.png
-│   ├── dashboard_2.png
-│   └── dashboard_3.png
-│
-├── report/
-│   └── Customer_Churn_Analysis_Insight_Report.pdf
-│
-├── presentation/
-│   └── Customer_Churn_Analysis.pptx
-│
-└── README.md
-```
-
-> Update the filenames to match the actual files in your repository.
-
----
 
 # 🧠 Skills Demonstrated
 
@@ -584,20 +548,6 @@ Customer-Behavior-Analysis-Using-SQL-Python-Power-BI/
 * Risk Prioritization
 * Business Recommendations
 
----
-
-# ⚠️ Project Limitations
-
-This project is based on a relatively small dataset containing 21 customer records.
-
-Therefore:
-
-* Churn percentages are dataset-level observations.
-* Small segments can produce extreme percentages.
-* Geographic comparisons require a larger sample.
-* Observed relationships do not establish causation.
-* Churn-risk scoring requires validation on historical outcomes.
-* Revenue and CLTV values depend on the project's calculation methodology.
 
 ---
 
